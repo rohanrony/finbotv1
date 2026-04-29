@@ -1,7 +1,9 @@
+import os
+os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
+
 import streamlit as st
 from dotenv import load_dotenv
 load_dotenv()
-import os
 
 from src.app_state import init_session_state
 from src.ui.chat_panel import render_chat_panel
