@@ -52,3 +52,8 @@ Run the core logic test script:
 ```bash
 python scripts/test_core.py
 ```
+
+## Usage
+1. Upload 10-K, 10-Q, or S-1 filings as PDF docs and ask questions specific to filing text. Upload multiple docs to compare them.
+2. Ask questions related metrics in financial statements pulled in from financialdatasets.ai
+
